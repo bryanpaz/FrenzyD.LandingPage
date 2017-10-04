@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44605" started-at="2017-10-04T17:33:12Z" finished-at="2017-10-04T17:33:57Z">
+    <groups>
+      <group name="all">
+        <method signature="Servicios_Frenzy.VerMas()[pri:3, instance:FrenzyDashboard.Home_ContactForm@42dafa95]" name="VerMas" class="FrenzyDashboard.Servicios_Frenzy"/>
+      </group> <!-- all -->
+    </groups>
+    <test name="Default test" duration-ms="44605" started-at="2017-10-04T17:33:12Z" finished-at="2017-10-04T17:33:57Z">
+      <class name="FrenzyDashboard.Home_ContactForm">
+        <test-method status="PASS" signature="AbrirNavegador()[pri:1, instance:FrenzyDashboard.Home_ContactForm@42dafa95]" name="AbrirNavegador" duration-ms="2570" started-at="2017-10-04T11:33:12Z" description="Abre el navegador configurado" finished-at="2017-10-04T11:33:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AbrirNavegador -->
+        <test-method status="PASS" signature="VerMas()[pri:3, instance:FrenzyDashboard.Home_ContactForm@42dafa95]" name="VerMas" duration-ms="31759" started-at="2017-10-04T11:33:15Z" description="Register new user" finished-at="2017-10-04T11:33:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerMas -->
+        <test-method status="PASS" signature="Video()[pri:4, instance:FrenzyDashboard.Home_ContactForm@42dafa95]" name="Video" duration-ms="2953" started-at="2017-10-04T11:33:46Z" description="Test Video in Home" finished-at="2017-10-04T11:33:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Video -->
+        <test-method status="PASS" signature="ContactForm()[pri:5, instance:FrenzyDashboard.Home_ContactForm@42dafa95]" name="ContactForm" duration-ms="7299" started-at="2017-10-04T11:33:49Z" description="Test Contact Form in Home" finished-at="2017-10-04T11:33:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactForm -->
+      </class> <!-- FrenzyDashboard.Home_ContactForm -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
